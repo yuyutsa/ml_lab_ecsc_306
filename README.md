@@ -27,14 +27,21 @@ Installing software:
 
 3. conda create -n tensorflow
 
-4. Find latestWheel for tensorFlow from 
+4. source activate tensorflow
+
+5. Find latestWheel for tensorFlow from 
 
 	https://www.tensorflow.org/install/install_linux#InstallingAnaconda
 
 	Get binaryURL for CPU only - Python 3.6 , sample url is provided
 
+	Online Install -
 	binaryurl=https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-1.2.1-cp36-cp36m-linux_x86_64.whl
 
-pip install --ignore-installed --upgrade $binaryUrl
+	Offline Install -
+	OR. if file is downloaded 
+	binaryurl=tensorflow-1.2.1-cp36-cp36m-linux_x86_64.whl
+
+	pip install --ignore-installed --upgrade $binaryUrl
 
 
